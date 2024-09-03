@@ -1,0 +1,25 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem; /*Changes all font sizes. rem is relative to the body */
+    background-color: antiquewhite;
+}
+
+main, footer {
+   max-width: 65ch; /*Sets a fixed sizes for the invisible box the text is in. Ch is relative to the letters size*/
+   margin-inline: auto; /*aligns content in center of screen*/
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 34, 172);
+}
+
+a:hover{
+   color: rgb(255, 0, 0); 
+   text-decoration: underline;
+}
+
+footer {
+    margin-top: 5rem;
+}
+
