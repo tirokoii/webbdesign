@@ -2,10 +2,38 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem; /*Changes all font sizes. rem is relative to the body */
     background-color: antiquewhite;
+    line-height: 1.5;
+    margin: 0;
+
 }
 
-main, footer {
-   max-width: 65ch; /*Sets a fixed sizes for the invisible box the text is in. Ch is relative to the letters size*/
+header {
+    background: brown;
+    padding: 2.5ch;
+    text-align: center;
+    font-size: 2.5ch;
+    color: black;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1;
+}
+
+.bodyBox {
+    padding: 10ch;
+    margin-top: 10ch;
+    background: white;
+}
+
+footer {
+    background: white;
+    margin: 0;
+    padding: 5ch;
+    text-align: center;
+}
+
+main {
+   max-width: 80ch; /*Sets a fixed sizes for the invisible box the text is in. Ch is relative to the letters size?*/
    margin-inline: auto; /*aligns content in center of screen*/
 }
 
@@ -22,4 +50,10 @@ a:hover{
 footer {
     margin-top: 5rem;
 }
+
+li {
+    list-style: square;
+    padding-bottom: 1ch;
+}
+
 
