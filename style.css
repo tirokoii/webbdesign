@@ -27,7 +27,7 @@ h1, h2, h3, h4 {
 
 footer {
     background: white;
-    margin: 0;
+    margin: 0%;
     padding: 5ch;
     text-align: center;
 }
@@ -58,6 +58,18 @@ li {
 
 .lead {
     font-size: 1.6rem;
+}
+
+.bread {
+    text-indent: 3rem;
+    padding: 0% !important;
+    margin: 0%;
+}
+
+.listTale {
+    position: relative;
+    right: 3.3ch;
+    font-size: 1.1rem;
 }
 
 
