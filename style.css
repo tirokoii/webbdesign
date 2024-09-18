@@ -40,8 +40,7 @@ h1, h2, h3, h4 {
 }
 
 .bodyBox {
-    width: min(100% - 3rem, var(--container-max, 80ch));
-    padding: 2ch;
+    padding: min(100% - 3rem, var(--container-max, 8ch));
     margin-inline: auto;
     margin-top: 10ch;
     background: white;
@@ -56,7 +55,7 @@ footer {
 }
 
 main {
-   max-width: 80ch; /*Sets a fixed sizes for the invisible box the text is in. Ch is relative to the letters size?*/
+   width: min(100% - 3rem, var(--container-max, 80ch));/*Sets a fixed sizes for the invisible box the text is in. Ch is relative to the letters size?*/
    margin-inline: auto; /*aligns content in center of screen*/
 }
 
@@ -113,9 +112,5 @@ img {
     padding: 1ch;
     border-radius: 3ch;
     background-color: rgba(51, 0, 255, 0.4);
-}
 
-.toTop, a {
-    color: rgb(255, 255, 255);
 }
-
