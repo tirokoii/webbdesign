@@ -40,7 +40,9 @@ h1, h2, h3, h4 {
 }
 
 .bodyBox {
-    padding: 10ch;
+    width: min(100% - 3rem, var(--container-max, 80ch));
+    padding: 2ch;
+    margin-inline: auto;
     margin-top: 10ch;
     background: white;
     box-shadow: 0ch 0ch 1.5ch 0ch rgb(207, 177, 168);
@@ -84,7 +86,6 @@ li {
 .bread {
     text-indent: 3rem;
     padding: 0% !important;
-    margin: 0%;
 }
 
 .listTale {
@@ -105,4 +106,16 @@ img {
     font-size: 1rem;
 }
 
+.toTop {
+    position: fixed;
+    margin-inline: min(100% - 3rem, var(--container-max, 2ch));
+    margin-top: min(100% - 3rem, var(--container-max, 40ch));
+    padding: 1ch;
+    border-radius: 3ch;
+    background-color: rgba(51, 0, 255, 0.4);
+}
+
+.toTop, a {
+    color: rgb(255, 255, 255);
+}
 
